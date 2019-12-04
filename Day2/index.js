@@ -39,7 +39,6 @@ findValue = (value) => {
     }
 }
 
-
 console.log(findValue('19690720'))
 
 

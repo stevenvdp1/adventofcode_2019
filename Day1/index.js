@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const input = fs.readFileSync('./Day1/input1.txt', 'utf-8').split('\r\n')
+const input = fs.readFileSync('./Day1/input.txt', 'utf-8').split('\r\n')
 
 calculateFuel = (mass) =>{
     return Math.floor(mass/3) - 2

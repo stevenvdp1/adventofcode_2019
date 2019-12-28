@@ -1,12 +1,4 @@
 import time
-class pos(object):
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    def __eq__(self, other):
-        return (self.x == other.x and self.y == other.y)
-
 
 with open('./input.txt', 'r') as f:
     wire_1 = f.readline().rstrip('\n\r').split(',');
@@ -44,7 +36,6 @@ pos_wire_1 = getPositions(wire_1)
 pos_wire_2 = getPositions(wire_2)
 
 manhattan_distance_cross_pos = []
-
 
 time_start = time.time();
 
